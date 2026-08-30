@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Method from "@/components/sections/Method";
-import Differentiators from "@/components/sections/Differentiators";
 import Areas from "@/components/sections/Areas";
 import HowItWorks from "@/components/sections/HowItWorks";
 import EducationalContent from "@/components/sections/EducationalContent";
@@ -20,7 +19,6 @@ export default function Home() {
         <Hero />
         <About />
         <Method />
-        <Differentiators />
         <Areas />
         <HowItWorks />
         <EducationalContent />

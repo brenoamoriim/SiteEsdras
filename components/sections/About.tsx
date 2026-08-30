@@ -42,12 +42,14 @@ export default function About() {
               ))}
             </div>
 
-            <div className="mt-10 flex items-center gap-4 rounded-2xl border border-gold/15 bg-obsidian-800/60 p-5">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold/40 font-accent text-sm text-gold-light">
+            <div className="group mt-10 flex origin-left scale-100 cursor-default items-center gap-4 rounded-2xl border border-gold/15 bg-obsidian-800/60 p-5 transition-all duration-300 hover:scale-[1.04] hover:border-gold hover:bg-gradient-to-r hover:from-gold/15 hover:to-transparent hover:shadow-gold">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold/40 font-accent text-sm text-gold-light transition-colors duration-300 group-hover:border-gold group-hover:bg-gold/10">
                 EA
               </div>
               <div>
-                <p className="font-display text-lg text-ivory">Esdras Amorim</p>
+                <p className="font-display text-lg text-ivory transition-colors duration-300 group-hover:text-gold-light">
+                  Esdras Amorim
+                </p>
                 <p className="text-xs text-mist-500">
                   Personal Trainer & Consultor de Treinos — CREF 052783G/MG
                 </p>

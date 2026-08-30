@@ -20,7 +20,6 @@ export function waLink(message: string) {
 export const navLinks = [
   { label: "Sobre", href: "#sobre" },
   { label: "Método", href: "#metodo" },
-  { label: "Diferenciais", href: "#diferenciais" },
   { label: "Áreas", href: "#areas" },
   { label: "Consultoria", href: "#consultoria" },
   { label: "Resultados", href: "#resultados" },
@@ -85,39 +84,6 @@ export const methodSteps = [
     number: "06",
     title: "Resultados Sustentáveis",
     text: "Evolução construída para durar — sem atalhos, sem efeito sanfona.",
-  },
-];
-
-export const differentiators = [
-  {
-    title: "Treinos Personalizados",
-    text: "Programas desenhados 100% para o seu corpo, sua rotina e seu objetivo.",
-    icon: "target",
-  },
-  {
-    title: "Biomecânica Aplicada",
-    text: "Cada exercício escolhido com base em como o seu corpo se move — não no que é tendência.",
-    icon: "bone",
-  },
-  {
-    title: "Correção Técnica",
-    text: "Vídeos e feedback direto sobre execução para treinar com segurança.",
-    icon: "check",
-  },
-  {
-    title: "Suporte Online",
-    text: "Canal direto com o profissional para dúvidas durante toda a consultoria.",
-    icon: "chat",
-  },
-  {
-    title: "Atualização Constante",
-    text: "Treinos revisados periodicamente conforme sua evolução real.",
-    icon: "refresh",
-  },
-  {
-    title: "Resultados Sustentáveis",
-    text: "Foco em progresso que se mantém — física e mentalmente.",
-    icon: "trophy",
   },
 ];
 

@@ -6,14 +6,14 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/5 bg-obsidian-950 pt-12 pb-6">
+    <footer className="border-t border-white/5 bg-obsidian-950 pt-8 pb-4">
       <Container>
-        <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
+        <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
           <div>
             <a href="#top" className="font-display text-2xl text-ivory">
               Monte <span className="text-gradient-gold italic">Olimpo</span>
             </a>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-mist-500">
+            <p className="mt-3 max-w-xs text-sm leading-relaxed text-mist-500">
               Consultoria online de treino personalizado. Ciência, técnica e disciplina como
               base de toda evolução real.
             </p>
@@ -23,7 +23,7 @@ export default function Footer() {
             <p className="font-accent text-xs uppercase tracking-widest2 text-gold-light">
               Navegação
             </p>
-            <ul className="mt-4 space-y-3">
+            <ul className="mt-3 space-y-2">
               {footerLinks.map((link) => (
                 <li key={link.href}>
                   <a
@@ -41,7 +41,7 @@ export default function Footer() {
             <p className="font-accent text-xs uppercase tracking-widest2 text-gold-light">
               Profissional
             </p>
-            <ul className="mt-4 space-y-3 text-sm text-mist-500">
+            <ul className="mt-3 space-y-2 text-sm text-mist-500">
               <li>{siteConfig.professional}</li>
               <li>{siteConfig.cref}</li>
               <li className="flex items-center gap-2">
@@ -55,7 +55,7 @@ export default function Footer() {
             <p className="font-accent text-xs uppercase tracking-widest2 text-gold-light">
               Contato
             </p>
-            <div className="mt-4 flex flex-col gap-3">
+            <div className="mt-3 flex flex-col gap-2">
               <a
                 href={waLink("Olá, Esdras! Vim através do site da Monte Olimpo.")}
                 target="_blank"
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-6 text-xs text-mist-700 md:flex-row">
+        <div className="mt-6 flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-4 text-xs text-mist-700 md:flex-row">
           <p>
             © {year} {siteConfig.brand}. Todos os direitos reservados.
           </p>
