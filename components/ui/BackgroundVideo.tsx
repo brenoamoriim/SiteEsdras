@@ -39,7 +39,7 @@ export default function BackgroundVideo({
     <div ref={wrapperRef} className={`absolute inset-0 overflow-hidden ${className}`}>
       {shouldLoad ? (
         <video
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover saturate-125"
           src={src}
           poster={poster}
           autoPlay
@@ -55,7 +55,7 @@ export default function BackgroundVideo({
           src={poster}
           alt=""
           aria-hidden="true"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover saturate-125"
           loading={priority ? "eager" : "lazy"}
         />
       )}

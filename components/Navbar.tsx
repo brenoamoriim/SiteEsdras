@@ -45,7 +45,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-content items-center justify-between px-6 py-4 md:px-10">
         <a href="#top" aria-label="Monte Olimpo — início">
-          <Logo imgClassName="h-20 md:h-24" textClassName="text-2xl md:text-3xl" />
+          <Logo imgClassName="h-16 md:h-20" textClassName="text-2xl md:text-3xl" />
         </a>
 
         <ul className="hidden items-center gap-8 lg:flex">
@@ -90,7 +90,7 @@ export default function Navbar() {
             className="fixed inset-0 z-50 bg-obsidian-950/95 backdrop-blur-lg lg:hidden"
           >
             <div className="flex items-center justify-between px-6 py-4">
-              <Logo imgClassName="h-16" textClassName="text-2xl" />
+              <Logo imgClassName="h-14" textClassName="text-2xl" />
               <button
                 onClick={() => setOpen(false)}
                 aria-label="Fechar menu"
