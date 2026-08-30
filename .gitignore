@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+build
+*.log
+.env*.local
+.DS_Store
+
+# Raw source media (originals) — the site uses the optimized copies in public/media
+/imagens site esdras/
